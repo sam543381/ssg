@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 	<channel>
-		<title>My Blog</title>
-		<link>http://myblog.com/</link>
-		<description>My Blog description</description>
-	</channel>
+		<title>BLOG_TITLE</title>
+		<link>BLOG_URL</link>
+		<description>BLOG_DESC</description>
