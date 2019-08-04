@@ -26,6 +26,8 @@ vim src/00-test.md
 
 git init src # Versioning
 
+vim build.sh # Edit config
+
 vim src/header.html # You might want to change the style
 vim src/footer.html
 

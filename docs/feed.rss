@@ -1,18 +1,13 @@
-
-<!DOCTYPE html>
-<html>
-
-	<head>
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
 		<title>My Blog</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="alternate" type="application/rss+xml" href="https://sam543381.github.io/ssg//feed.rss" title="My Blog">
-	</head>
-	<body>
-		<h1>My Blog</h1>
-		<h2>A minimalistic blog</h2>
-		<hr>
-
+		<link>https://sam543381.github.io/ssg/</link>
+		<description>A minimalistic blog</description>
+<item>
+	<title>Second article</title>
+	<link>https://sam543381.github.io/ssg//test2.html</link>
+	<content:encoded><![CDATA[
 <p>
 <h1>Second article</h1>
 </p>
@@ -24,9 +19,12 @@
  Lorem ipsum <b>dolor</b> <span style="font-style: italic;">sit</span> amet, <a href="https://start.duckduckgo.com/">consectetur adipiscing elit</a> Curabitur fringilla purus ac congue venenatis. Quisque nec urna id nisl auctor pretium. Quisque a ultricies elit, ut condimentum velit. Quisque sed semper felis, sit amet laoreet turpis. Suspendisse lacinia velit sed consequat efficitur. Quisque ut accumsan mauris, a scelerisque ipsum. Ut est mauris, mattis vel convallis sed, ultrices pulvinar lacus. Maecenas fermentum porttitor pharetra. Donec non pharetra augue.
 <br />
 Nullam non sapien sem. Nam consequat posuere enim, eget condimentum ante iaculis id. Ut fermentum neque id feugiat pretium. Suspendisse ultricies erat orci, at pulvinar massa posuere sed. Aliquam bibendum purus quis enim eleifend, id sollicitudin mi accumsan. Fusce gravida suscipit lacinia. Sed magna ipsum, semper quis consectetur vel, pellentesque id nisi. Ut justo urna,
-</p>
-<hr><i>Read more by clicking</i> <b><a href="test2.html">this link</a></b>.<hr>
-
+</p>]]></content:encoded>
+</item>
+<item>
+	<title>Title</title>
+	<link>https://sam543381.github.io/ssg//test.html</link>
+	<content:encoded><![CDATA[
 <p>
 <h1>Title</h1>
 </p>
@@ -35,35 +33,7 @@ Nullam non sapien sem. Nam consequat posuere enim, eget condimentum ante iaculis
  Lorem ipsum <b>dolor</b> <span style="font-style: italic;">sit</span> amet, <a href="https://start.duckduckgo.com/">consectetur adipiscing elit</a> Curabitur fringilla purus ac congue venenatis. Quisque nec urna id nisl auctor pretium. Quisque a ultricies elit, ut condimentum velit. Quisque sed semper felis, sit amet laoreet turpis. Suspendisse lacinia velit sed consequat efficitur. Quisque ut accumsan mauris, a scelerisque ipsum. Ut est mauris, mattis vel convallis sed, ultrices pulvinar lacus. Maecenas fermentum porttitor pharetra. Donec non pharetra augue.
 <br />
 Nullam non sapien sem. Nam consequat posuere enim, eget condimentum ante iaculis id. Ut fermentum neque id feugiat pretium. Suspendisse ultricies erat orci, at pulvinar massa posuere sed. Aliquam bibendum purus quis enim eleifend, id sollicitudin mi accumsan. Fusce gravida suscipit lacinia. Sed magna ipsum, semper quis consectetur vel, pellentesque id nisi. Ut justo urna, fermentum interdum diam vel, porttitor consectetur ligula. Proin porttitor accumsan ma
-</p>
-<hr><i>Read more by clicking</i> <b><a href="test.html">this link</a></b>.<hr>
-		<style>
-			body{
-				margin:1em auto;
-				max-width:40em;
-				padding:0 .62em;
-				font:1.2em/1.62 sans-serif;
-			}
-
-			img {
-				max-width: 40em;
-			}
-
-			h1,h2,h3 {
-				line-height:1.2;
-			}
-		
-			@media print{
-				body{
-					max-width:none
-				}
-			}
-
-			p  {
-				text-indent: 2.5em;
-			}
-
-		</style>
-	</body>
-
-</html>
+</p>]]></content:encoded>
+</item>
+	</channel>
+</rss>
