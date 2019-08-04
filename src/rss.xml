@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+	<channel>
+		<title>My Blog</title>
+		<link>http://myblog.com/</link>
+		<description>My Blog description</description>
+		<item>
+			<title>Test</title>
+			<link>http://myblog.com/test</link> 
+			<description>Debut</description>
+		</item>
+	</channel>
+</rss>

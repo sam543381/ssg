@@ -74,7 +74,7 @@ BEGIN { P = 0 ; print "" }
 	if ($0 == "") {
 		if (was == "") stop = 1
 		p()
-		print "<br>"
+		print "<br />"
 	} else {
 		p()
 	}
