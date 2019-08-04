@@ -35,5 +35,7 @@ cp build/* /var/www
 
 ```
 
+Add ``--no-rss`` to disable RSS file generation
+
 Warning: the current stable release of debian-based operating systems ships with a [bugged implementation of awk](https://bugs.launchpad.net/ubuntu/+source/mawk/+bug/1332114). Please install gawk otherwise you will get errors.
 
