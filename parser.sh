@@ -34,13 +34,13 @@ BEGIN { P = 0 ; print "" }
 /^#.*/ { stop = 1 ; sub(/^#[[:space:]]+/, "") ; sub($0, "<h1>"$0"</h1>") }
 
 {
-	if (match($0, /__[^_]+__/)) {
-		content=substr($0, (RSTART + 2), (RLENGTH - 4))
-		sub("__"content"__", "<b>"content"</b>")
-	}
 	if (match($0, /___[^_]+___/)) {
 		content=substr($0, (RSTART + 3), (RLENGTH - 6))
 		sub("___"content"___", "<span style=\"font-style: italic;\">"content"</span>")
+	}
+	if (match($0, /__[^_]+__/)) {
+		content=substr($0, (RSTART + 2), (RLENGTH - 4))
+		sub("__"content"__", "<b>"content"</b>")
 	}
 
 	if (match($0, /!\[[^\]]+\]\([^\)]+)/)) {
